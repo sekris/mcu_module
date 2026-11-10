@@ -494,7 +494,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12,
+        "bus_width": 8,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -510,7 +510,43 @@
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 4
+      },
+      {
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "Crystal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -518,7 +554,44 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "/*V"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*DP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*DM"
+      },
+      {
+        "netclass": "Crystal",
+        "pattern": "/OSC*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/UART*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/I2C*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SPI*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/ADC*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -661,7 +734,7 @@
         "uuid": "2d6b31cc-1e61-4df7-af78-732c69900498"
       }
     ],
-    "used_designators": "J1-3,J5-9,R1-4,R8-10,#FLG1-2,P1,SW1,U1-2,#PWR1-2,#PWR5-12,C1-4,C9-22,Y1-2,D1-2",
+    "used_designators": "R1-4,R8-10,#FLG1-2,J1-3,J5-9,SW1,P1,U1-2,#PWR1-2,#PWR5-12,C1-4,C9-22,Y1-2,D1-2",
     "variants": []
   },
   "sheets": [

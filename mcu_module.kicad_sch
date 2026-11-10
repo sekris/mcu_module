@@ -6029,8 +6029,8 @@
 		)
 	)
 	(rectangle
-		(start 35.433 43.307)
-		(end 70.993 57.15)
+		(start 33.782 43.307)
+		(end 68.072 57.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -8796,6 +8796,16 @@
 		)
 		(uuid "041acaee-6769-4a80-9d97-cd97fe47f97c")
 	)
+	(label "ADC_8"
+		(at 24.13 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06581c7e-b6c7-420c-a275-cc320f455092")
+	)
 	(label "SWDIO"
 		(at 142.24 123.825 0)
 		(effects
@@ -8906,16 +8916,6 @@
 		)
 		(uuid "1b4087e8-bdc2-4fe5-bdab-c2feea41b4b3")
 	)
-	(label "ADC_0"
-		(at 24.13 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d64e377-3fea-4afe-ae38-25c5b2bd8675")
-	)
 	(label "OSC_OUT_RTC"
 		(at 247.015 40.64 0)
 		(effects
@@ -8986,16 +8986,6 @@
 		)
 		(uuid "396d3784-41fe-4b84-ad1d-c71bed5ef680")
 	)
-	(label "SPI_MISO"
-		(at 58.42 51.435 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "397b13e3-dff4-439b-b9b2-39295caf0789")
-	)
 	(label "OSC_OUT_MAIN"
 		(at 102.235 103.505 180)
 		(effects
@@ -9026,6 +9016,16 @@
 		)
 		(uuid "487c502a-d2a1-4e6a-9467-16d12082f523")
 	)
+	(label "SPI_MISO"
+		(at 58.42 53.975 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "487f18f6-99d5-4f2c-85f2-126e02652c46")
+	)
 	(label "UART_1_TX"
 		(at 142.24 113.665 0)
 		(effects
@@ -9036,15 +9036,15 @@
 		)
 		(uuid "4d0ad9da-d838-45cf-ae76-025d82449138")
 	)
-	(label "SPI_NSS{slash}CS"
-		(at 58.42 53.975 0)
+	(label "ADC_0"
+		(at 24.13 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "561d2ef3-b8cc-4645-8c3a-0cd9099b1dc6")
+		(uuid "51107832-272c-43b4-a4f2-a4421cb5ee96")
 	)
 	(label "3.3V"
 		(at 24.13 22.86 0)
@@ -9136,16 +9136,6 @@
 		)
 		(uuid "65f30ec5-27a9-4e8a-ad10-58b650f4560d")
 	)
-	(label "SPI_MOSI"
-		(at 45.72 53.975 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65fb896f-5684-4226-92ec-594d1893e351")
-	)
 	(label "SPI_MISO"
 		(at 142.24 106.045 0)
 		(effects
@@ -9175,16 +9165,6 @@
 			(justify right bottom)
 		)
 		(uuid "6e68131c-75d2-40ed-9493-7bcc2f02d9eb")
-	)
-	(label "SPI_SCK"
-		(at 45.72 51.435 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74c7a8e2-c7e3-4e95-942c-c21359c0e4fe")
 	)
 	(label "I2C_SCL"
 		(at 102.235 133.985 180)
@@ -9336,6 +9316,16 @@
 		)
 		(uuid "9a71d6ca-8ebc-4de6-828c-94dd371b51a8")
 	)
+	(label "SPI_SCK"
+		(at 45.72 53.975 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ec2438a-79e3-4ede-8cca-036ce9bee97f")
+	)
 	(label "OSC_IN_MAIN"
 		(at 102.235 100.965 180)
 		(effects
@@ -9376,15 +9366,15 @@
 		)
 		(uuid "a418b5d4-8850-4383-9e86-349f60d98626")
 	)
-	(label "ADC_1"
-		(at 24.13 30.48 0)
+	(label "ADC_9"
+		(at 24.13 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a559023b-35df-47e0-92c0-fa096df74a44")
+		(uuid "a53fddb3-95b6-4e8f-a575-02b9b0888e8e")
 	)
 	(label "OSC_OUT_MAIN"
 		(at 194.945 40.005 0)
@@ -9395,6 +9385,16 @@
 			(justify left bottom)
 		)
 		(uuid "a769554e-dac8-4a2e-9418-c0ee3c3b9f55")
+	)
+	(label "SPI_NSS{slash}CS"
+		(at 45.72 51.435 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa005765-8e3e-4e0d-81a9-05bc7b16d001")
 	)
 	(label "GPIO_9"
 		(at 102.235 149.225 180)
@@ -9505,6 +9505,16 @@
 			(justify right bottom)
 		)
 		(uuid "c3329d51-15a5-4c49-89dc-3c5b7beaae60")
+	)
+	(label "ADC_1"
+		(at 24.13 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4bb38a9-2278-4c31-aa4d-12f19b13df26")
 	)
 	(label "GPIO_4"
 		(at 24.765 74.93 0)
@@ -9726,16 +9736,6 @@
 		)
 		(uuid "f331c5d8-789a-4fb7-b315-cda8c1e927d3")
 	)
-	(label "ADC_9"
-		(at 24.13 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f37d1876-d5f0-41b7-ba30-3a89570c6e35")
-	)
 	(label "NRST"
 		(at 86.995 20.32 0)
 		(effects
@@ -9776,6 +9776,16 @@
 		)
 		(uuid "fcf9a4a7-102f-40bd-8009-f5694e9ac422")
 	)
+	(label "SPI_MOSI"
+		(at 58.42 51.435 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe55c26c-fb32-4e66-b778-e22277ca7f49")
+	)
 	(label "3.3V"
 		(at 70.485 20.32 180)
 		(effects
@@ -9785,16 +9795,6 @@
 			(justify right bottom)
 		)
 		(uuid "fe9759d5-f515-49d5-947d-eeaa73227b06")
-	)
-	(label "ADC_8"
-		(at 24.13 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff0dd6a8-5698-439c-86da-4b0042626394")
 	)
 	(symbol
 		(lib_id "Device:LED")

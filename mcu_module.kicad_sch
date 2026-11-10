@@ -9829,7 +9829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 129.54 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9920,7 +9920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 40.64 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10005,7 +10005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 233.045 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -10256,7 +10256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.38 55.118 90)
 			(hide yes)
 			(show_name no)
@@ -10503,7 +10503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 180.975 26.3398 0)
 			(hide yes)
 			(show_name no)
@@ -10920,7 +10920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 98.425 97.663 90)
 			(hide yes)
 			(show_name no)
@@ -11175,7 +11175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical"
 			(at 17.78 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11934,7 +11934,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+		(property "Footprint" "AB26T_32_768KHZ:XTAL_AB26T_32_768KHZ"
 			(at 236.855 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -12013,7 +12013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 78.105 22.098 90)
 			(hide yes)
 			(show_name no)
@@ -12173,7 +12173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+		(property "Footprint" "ATS08A-E:XTAL_HC49P488W43L1085T450H368"
 			(at 184.785 33.655 0)
 			(hide yes)
 			(show_name no)
@@ -12331,7 +12331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
 			(at 78.105 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12414,7 +12414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 268.605 140.335 0)
 			(hide yes)
 			(show_name no)
@@ -13183,7 +13183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 179.705 140.335 0)
 			(hide yes)
 			(show_name no)
@@ -13279,7 +13279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 233.045 26.9748 0)
 			(hide yes)
 			(show_name no)
@@ -13359,7 +13359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 15.875 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -13444,7 +13444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 180.975 39.0398 0)
 			(hide yes)
 			(show_name no)
@@ -13603,7 +13603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 36.83 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -13777,7 +13777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 41.275 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13863,7 +13863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 17.145 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14033,7 +14033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TYPE-C-31-M-12:HRO_TYPE-C-31-M-12"
 			(at 53.975 145.415 0)
 			(hide yes)
 			(show_name no)
@@ -14161,7 +14161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 270.383 125.095 90)
 			(hide yes)
 			(show_name no)
@@ -14335,7 +14335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 181.483 125.095 90)
 			(hide yes)
 			(show_name no)
@@ -14705,7 +14705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 50.8 51.435 0)
 			(hide yes)
 			(show_name no)

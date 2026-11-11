@@ -8796,6 +8796,16 @@
 		)
 		(uuid "041acaee-6769-4a80-9d97-cd97fe47f97c")
 	)
+	(label "GPIO_1"
+		(at 24.765 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04546bc0-6e3c-4b36-b9b0-7fb300a1b71a")
+	)
 	(label "ADC_8"
 		(at 24.13 35.56 0)
 		(effects
@@ -8836,16 +8846,6 @@
 		)
 		(uuid "0a7ec58c-0942-4980-89e7-1d3bdf2d2f81")
 	)
-	(label "GPIO_6"
-		(at 24.765 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c22cdd4-ac0d-4b32-9588-44c62ef64a96")
-	)
 	(label "I2C_SCL"
 		(at 22.86 53.975 0)
 		(effects
@@ -8866,16 +8866,6 @@
 		)
 		(uuid "0d46e2b5-7e7c-477d-8b00-f9552bd4452d")
 	)
-	(label "GPIO_11"
-		(at 24.765 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ddc576d-308c-467b-b59b-0bf096c4a81d")
-	)
 	(label "SPI_SCK"
 		(at 142.24 103.505 0)
 		(effects
@@ -8886,6 +8876,16 @@
 		)
 		(uuid "10ba8fcb-c246-44f0-b9e6-9aeb4a58e3e6")
 	)
+	(label "GPIO_8"
+		(at 24.765 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1712213f-5c29-481a-a268-d84257842ee2")
+	)
 	(label "3.3V"
 		(at 121.92 80.01 90)
 		(effects
@@ -8895,6 +8895,16 @@
 			(justify left bottom)
 		)
 		(uuid "17599abf-6fdf-4ff7-a67f-4fb1393b2844")
+	)
+	(label "GPIO_13"
+		(at 24.765 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a85834f-aa84-4737-ae72-842b15067c9a")
 	)
 	(label "OSC_IN_RTC"
 		(at 247.015 27.94 0)
@@ -8915,6 +8925,26 @@
 			(justify left bottom)
 		)
 		(uuid "1b4087e8-bdc2-4fe5-bdab-c2feea41b4b3")
+	)
+	(label "GPIO_11"
+		(at 24.765 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bea2d69-eb7f-4b04-8769-545825fccd66")
+	)
+	(label "GPIO_2"
+		(at 24.765 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f867d41-7a13-4f02-8d85-604c6adb4dd5")
 	)
 	(label "OSC_OUT_RTC"
 		(at 247.015 40.64 0)
@@ -8955,6 +8985,16 @@
 			(justify right bottom)
 		)
 		(uuid "34d367d2-d1d6-40b8-a1da-e56eefe21624")
+	)
+	(label "GPIO_12"
+		(at 24.765 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34e8ef6f-ed94-4197-9370-abe0f9704d0e")
 	)
 	(label "3.3V"
 		(at 22.86 48.895 0)
@@ -9006,6 +9046,16 @@
 		)
 		(uuid "42cc9ed3-b616-4b29-89ff-f40a84ca6778")
 	)
+	(label "GPIO_9"
+		(at 24.765 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43791654-6dde-4b67-b9d7-b8ad080b234f")
+	)
 	(label "3.3V"
 		(at 171.45 116.205 180)
 		(effects
@@ -9026,6 +9076,16 @@
 		)
 		(uuid "487f18f6-99d5-4f2c-85f2-126e02652c46")
 	)
+	(label "GPIO_6"
+		(at 24.765 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a1c1103-d446-4e27-a840-5e1105d85d5e")
+	)
 	(label "UART_1_TX"
 		(at 142.24 113.665 0)
 		(effects
@@ -9035,6 +9095,16 @@
 			(justify left bottom)
 		)
 		(uuid "4d0ad9da-d838-45cf-ae76-025d82449138")
+	)
+	(label "GPIO_10"
+		(at 24.765 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50e72fc2-eece-46ac-91c9-37100e9f45bb")
 	)
 	(label "ADC_0"
 		(at 24.13 30.48 0)
@@ -9146,6 +9216,26 @@
 		)
 		(uuid "66df671e-b650-4273-9852-c71c9525b985")
 	)
+	(label "GPIO_7"
+		(at 24.765 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "671da255-17d1-4a44-9109-b3498743160c")
+	)
+	(label "GPIO_3"
+		(at 24.765 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68695838-4740-416e-8fed-09898ad398c4")
+	)
 	(label "OSC_OUT_RTC"
 		(at 102.235 113.665 180)
 		(effects
@@ -9226,16 +9316,6 @@
 		)
 		(uuid "83a4aed9-9ba9-4fec-b139-cb8425a7cb7c")
 	)
-	(label "GPIO_10"
-		(at 24.765 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85cda408-3845-4ae1-baec-0091a3a4a116")
-	)
 	(label "ADC_9"
 		(at 142.24 93.345 0)
 		(effects
@@ -9256,25 +9336,15 @@
 		)
 		(uuid "89db2bc9-e158-41d0-8996-b8b1f4294871")
 	)
-	(label "GPIO_2"
-		(at 24.765 69.85 0)
+	(label "GPIO_4"
+		(at 24.765 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8c0dfaf6-ded9-4603-9e48-7b69fca66e89")
-	)
-	(label "GPIO_13"
-		(at 24.765 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d59a528-4c8e-45c9-b5b5-b3dc15ea6a32")
+		(uuid "9065acad-0fff-45a9-862e-718b4943c206")
 	)
 	(label "UART_2_TX"
 		(at 46.355 88.9 0)
@@ -9416,16 +9486,6 @@
 		)
 		(uuid "b0cd6211-b97f-4e5c-853f-dc8b9d6c8db8")
 	)
-	(label "GPIO_1"
-		(at 24.765 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3ca5795-1cfc-4358-a41f-c7b4743d5a5c")
-	)
 	(label "3.3V"
 		(at 43.815 22.225 0)
 		(effects
@@ -9435,16 +9495,6 @@
 			(justify left bottom)
 		)
 		(uuid "b5035022-7793-482a-8aec-eb80f0d46159")
-	)
-	(label "GPIO_7"
-		(at 24.765 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b670ab9b-de6b-4e2c-8310-cfcc00a97765")
 	)
 	(label "SWCLK"
 		(at 43.815 29.845 0)
@@ -9487,14 +9537,14 @@
 		(uuid "bea3a0ef-c213-4bdc-86f2-2a27ef246675")
 	)
 	(label "GPIO_5"
-		(at 24.765 77.47 0)
+		(at 24.765 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c1b28a32-087a-41dd-992c-3c3b2605ede8")
+		(uuid "c19bc08d-dd24-4d76-883c-fdb3993241a2")
 	)
 	(label "GPIO_5"
 		(at 102.235 139.065 180)
@@ -9516,16 +9566,6 @@
 		)
 		(uuid "c4bb38a9-2278-4c31-aa4d-12f19b13df26")
 	)
-	(label "GPIO_4"
-		(at 24.765 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c61b0aa8-0bd7-466e-b172-d02fc0550be0")
-	)
 	(label "ESD_DM"
 		(at 200.025 74.295 0)
 		(effects
@@ -9545,16 +9585,6 @@
 			(justify right bottom)
 		)
 		(uuid "c66c71af-2e60-4b9c-aaf7-a573bd1c2a90")
-	)
-	(label "GPIO_3"
-		(at 24.765 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c968b0ea-c88a-4996-bded-ea6f12b66664")
 	)
 	(label "GND"
 		(at 43.815 27.305 0)
@@ -9656,16 +9686,6 @@
 		)
 		(uuid "e3ff3551-3184-435f-93b8-5161448782d2")
 	)
-	(label "GPIO_12"
-		(at 24.765 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5f32bd4-484d-41dc-b680-403ef3160cfb")
-	)
 	(label "STATUS_LED"
 		(at 102.235 108.585 180)
 		(effects
@@ -9675,16 +9695,6 @@
 			(justify right bottom)
 		)
 		(uuid "e82588c6-5fc7-4fc8-a3b2-afcb9b298bc5")
-	)
-	(label "GPIO_14"
-		(at 24.765 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e98740e4-7257-448b-a8d0-b3320e727159")
 	)
 	(label "SWCLK"
 		(at 142.24 126.365 0)
@@ -9705,26 +9715,6 @@
 			(justify right bottom)
 		)
 		(uuid "eff957d3-99f1-4a85-b4bc-ff603f28af6f")
-	)
-	(label "GPIO_8"
-		(at 24.765 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f05d8b78-4d04-4068-bd3d-328b6b59c85f")
-	)
-	(label "GPIO_9"
-		(at 24.765 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1df8f8e-192b-43e6-ac9a-6dadcce5100a")
 	)
 	(label "3.3V"
 		(at 113.03 53.34 180)
@@ -9775,6 +9765,16 @@
 			(justify right bottom)
 		)
 		(uuid "fcf9a4a7-102f-40bd-8009-f5694e9ac422")
+	)
+	(label "GPIO_14"
+		(at 24.765 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd70dd63-6681-4845-95f6-ce8dd9eb83cc")
 	)
 	(label "SPI_MOSI"
 		(at 58.42 51.435 0)

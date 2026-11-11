@@ -6249,7 +6249,7 @@
 	)
 	(rectangle
 		(start 83.82 72.517)
-		(end 157.734 176.149)
+		(end 163.83 176.149)
 		(stroke
 			(width 0)
 			(type default)
@@ -6644,12 +6644,6 @@
 		(uuid "7e4c51ad-00b3-4303-a180-7761c8a958fb")
 	)
 	(junction
-		(at 40.64 150.495)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "812f6335-25b7-4bba-94ad-64b32ed1ede9")
-	)
-	(junction
 		(at 121.92 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6672,6 +6666,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cf842f1-0dfc-4f80-96bf-a0d0ccf2260c")
+	)
+	(junction
+		(at 153.67 121.285)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d9dbb1d-029b-49fd-9747-60e800eaba02")
 	)
 	(junction
 		(at 210.82 81.915)
@@ -7517,6 +7517,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 130.81) (xy 153.67 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f8dc42-6730-4ab2-a415-67292e259836")
+	)
+	(wire
+		(pts
 			(xy 85.344 20.32) (xy 86.995 20.32)
 		)
 		(stroke
@@ -7704,16 +7714,6 @@
 			(type default)
 		)
 		(uuid "7679007d-5337-4686-9ce6-9f860c9c96de")
-	)
-	(wire
-		(pts
-			(xy 30.48 152.4) (xy 31.75 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7746e238-04ef-40eb-8b11-db7a6dad27dd")
 	)
 	(wire
 		(pts
@@ -8327,6 +8327,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 121.285) (xy 156.21 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9cc23d-bb8a-478d-9ece-5a63b06b22a8")
+	)
+	(wire
+		(pts
 			(xy 236.855 38.1) (xy 236.855 40.64)
 		)
 		(stroke
@@ -8437,16 +8447,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 150.495) (xy 40.64 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca5ac940-9640-47e8-aea8-01061eef24f9")
-	)
-	(wire
-		(pts
 			(xy 24.13 30.48) (xy 22.225 30.48)
 		)
 		(stroke
@@ -8497,7 +8497,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 121.285) (xy 142.24 121.285)
+			(xy 139.7 121.285) (xy 153.67 121.285)
 		)
 		(stroke
 			(width 0)
@@ -8544,16 +8544,6 @@
 			(type default)
 		)
 		(uuid "dd999249-3391-4876-ab40-8aa14c3a6194")
-	)
-	(wire
-		(pts
-			(xy 40.64 152.4) (xy 39.37 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e06a15bd-0cb6-46bb-9658-c36b1ee91400")
 	)
 	(wire
 		(pts
@@ -9075,16 +9065,6 @@
 		)
 		(uuid "2daae352-e2ac-4532-997f-d9b5ae8a8f48")
 	)
-	(label "3.3V"
-		(at 30.48 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "34d367d2-d1d6-40b8-a1da-e56eefe21624")
-	)
 	(label "GPIO_12"
 		(at 24.765 82.55 0)
 		(effects
@@ -9294,6 +9274,16 @@
 			(justify left bottom)
 		)
 		(uuid "613678ec-b51d-44bd-bbd0-b4c7a8ed8c96")
+	)
+	(label "3.3V"
+		(at 153.67 130.81 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61c88c2a-12bd-4ef0-a66d-f9643eacbca5")
 	)
 	(label "NRST"
 		(at 43.815 32.385 0)
@@ -9526,7 +9516,7 @@
 		(uuid "a2a5ad36-9483-41f7-8b4d-48b866f3cc78")
 	)
 	(label "ESD_DP"
-		(at 142.24 121.285 0)
+		(at 156.21 121.285 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11234,6 +11224,99 @@
 			(project "voltage_regulator_3_3V"
 				(path "/f388d50b-5132-4741-9f78-ed93b89a92e2"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 125.095 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "39f026d3-6147-42fd-a9d3-31ffda3e43dc")
+		(property "Reference" "R8"
+			(at 153.67 123.825 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5K"
+			(at 156.21 122.555 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 151.892 125.095 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 153.67 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2db2ce87-2cfe-498e-8019-ffb8fd9bed14")
+		)
+		(pin "2"
+			(uuid "a0f4f3d0-2d18-4014-ae21-475aebae0842")
+		)
+		(instances
+			(project "mcu_module"
+				(path "/2d6b31cc-1e61-4df7-af78-732c69900498"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13051,99 +13134,6 @@
 			(project "mcu_module"
 				(path "/2d6b31cc-1e61-4df7-af78-732c69900498"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 152.4 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9daa56d-2525-44bc-8187-2f3d5055a941")
-		(property "Reference" "R8"
-			(at 36.83 152.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5K"
-			(at 38.1 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 35.56 150.622 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 35.56 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8b27803-979f-417b-b1f8-4040ead036bb")
-		)
-		(pin "2"
-			(uuid "fe3b14b2-91c1-47e2-a937-2449a8d0cfba")
-		)
-		(instances
-			(project "mcu_module"
-				(path "/2d6b31cc-1e61-4df7-af78-732c69900498"
-					(reference "R8")
 					(unit 1)
 				)
 			)
